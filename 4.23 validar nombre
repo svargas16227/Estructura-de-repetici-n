@@ -1,0 +1,16 @@
+Algoritmo validarNombre
+	Definir nombre Como Cadena
+	
+    Repetir
+        
+        Escribir "Ingrese su nombre:"
+        Leer nombre
+		
+        Si Longitud(nombre) = 0 Entonces
+            Escribir "No puede dejar el nombre vacio."
+        FinSi
+		
+    Hasta Que Longitud(nombre) > 0
+	
+    Escribir "Nombre registrado: ", nombre
+FinAlgoritmo

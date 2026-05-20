@@ -1,0 +1,22 @@
+Algoritmo series
+	Definir num, contador, termino Como Entero
+	
+	Escribir "Ingrese la cantidad de términos:"
+	Leer num
+	
+	contador <- 0
+	termino <- 1
+	
+	Mientras contador < num Hacer
+		Escribir Sin Saltar termino
+		
+		Si contador < num - 1 Entonces
+			Escribir Sin Saltar ", "
+		FinSi
+		
+		termino <- termino + 2
+		contador <- contador + 1
+		
+	FinMientras
+	
+FinAlgoritmo

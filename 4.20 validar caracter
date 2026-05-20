@@ -1,0 +1,17 @@
+Algoritmo validarCaracter
+	Definir letra Como Caracter
+	
+    Repetir
+        
+        Escribir "Ingrese una letra (a o b):"
+        Leer letra
+		
+        Si letra <> "a" Y letra <> "b" Entonces
+            Escribir "Letra no valida. Intente nuevamente."
+        FinSi
+		
+    Hasta Que letra = "a" O letra = "b"
+	
+    Escribir "Letra valida ingresada: ", letra
+	
+FinAlgoritmo

@@ -1,0 +1,16 @@
+Algoritmo validarCadena
+Definir color Como Cadena
+		
+		Repetir
+			
+			Escribir "Ingrese un color (rojo o azul):"
+			Leer color
+			
+			Si color <> "rojo" Y color <> "azul" Entonces
+				Escribir "Color no valido. Intente nuevamente."
+			FinSi
+			
+		Hasta Que color = "rojo" O color = "azul"
+		
+		Escribir "Color valido ingresado: ", color
+FinAlgoritmo

@@ -1,0 +1,23 @@
+Algoritmo validarEdad
+	Definir nombre Como Cadena
+    Definir edad Como Entero
+	
+    Escribir "Ingrese su nombre:"
+    Leer nombre
+	
+    Repetir
+        
+        Escribir "Ingrese su edad (entre 18 y 90):"
+        Leer edad
+		
+        Si edad < 18 O edad > 90 Entonces
+            Escribir "Edad no valida. Intente nuevamente."
+        FinSi
+		
+    Hasta Que edad >= 18 Y edad <= 90
+	
+    Escribir "Registro completado."
+    Escribir "Nombre: ", nombre
+    Escribir "Edad: ", edad
+
+FinAlgoritmo
